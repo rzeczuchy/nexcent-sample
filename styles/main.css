@@ -1,0 +1,33 @@
+/* Variables */
+:root {
+    --color-white: #ffffff;
+    --color-silver: #f5f7fa;
+    --color-greyblue: #abbed1;
+    --color-lightgrey: #89939e;
+    --color-grey: #717171;
+    --color-darkgrey: #4d4d4d;
+    --color-black: #263238;
+    --color-primary: #28cb8b;
+    --color-secondary: #263238;
+    --color-info: #2194f3;
+    --color-primary-shade1: #43a046;
+    --color-primary-shade2: #388e3b;
+    --color-primary-shade3: #237d31;
+    --color-primary-shade4: #1b5e1f;
+    --color-primary-shade5: #103e13;
+    --color-primary-tint1: #66bb69;
+    --color-primary-tint1: #81c784;
+    --color-primary-tint1: #a5d6a7;
+    --color-primary-tint1: #c8e6c9;
+    --color-primary-tint1: #e8f5e9;
+    --color-warning: #fbc02d;
+    --color-error: #e53a35;
+    --color-success: #2e7d31;
+}
+
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
