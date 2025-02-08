@@ -1,4 +1,5 @@
 /* Font */
+
 @font-face {
     font-family: "Inter";
     src: url("../assets/font/Inter-VariableFont_opsz\,wght.ttf") format("truetype-variations");
@@ -14,6 +15,7 @@
 }
 
 /* Variables */
+
 :root {
     --color-white: #ffffff;
     --color-silver: #f5f7fa;
@@ -41,6 +43,7 @@
 }
 
 /* Global */
+
 * {
     margin: 0;
     padding: 0;
@@ -64,6 +67,7 @@ body {
 }
 
 /* Top navigation */
+
 .top-nav {
     padding: 30px 120px;
     display: flex;
@@ -122,6 +126,7 @@ body {
 }
 
 /* Hero */
+
 .hero {
     min-height: 600px;
     display: flex;
@@ -162,6 +167,8 @@ body {
     border-radius: 6px;
     text-decoration: none;
 }
+
+/* Hero slider navigation */
 
 .hero-slider-nav {
     position: absolute;
