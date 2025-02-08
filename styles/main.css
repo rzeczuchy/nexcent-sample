@@ -163,8 +163,29 @@ body {
     text-decoration: none;
 }
 
-#hero-slider-nav {
+.hero-slider-nav {
     position: absolute;
     top: 650px;
     left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero-slider-nav ul {
+    /* Interesting hack to avoid whitespace in list -> set font-size to 0. */
+    font-size: 0;
+    list-style: none;
+}
+
+.slider-nav-dot {
+    --dot-size: 10px;
+    margin: 0 4px;
+    display: inline-block;
+    background-color: rgba(76, 175, 79, 0.3);
+    width: var(--dot-size);
+    height: var(--dot-size);
+    border-radius: 50%;
+}
+
+.dot-active {
+    background-color: var(--color-primary);
 }
