@@ -22,7 +22,7 @@
     --color-grey: #717171;
     --color-darkgrey: #4d4d4d;
     --color-black: #263238;
-    --color-primary: #28cb8b;
+    --color-primary: #4CAF4F;
     --color-secondary: #263238;
     --color-info: #2194f3;
     --color-primary-shade1: #43a046;
@@ -49,4 +49,69 @@
 
 body {
     font-family: "Inter", Helvetica, sans-serif;
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* Top navigation */
+.top-nav {
+    padding: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav ul {
+    list-style: none;
+}
+
+.top-nav ul li {
+    display: inline-block;
+}
+
+.nav-link:not(:last-child) {
+    margin-right: 50px;
+}
+
+.top-nav a {
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+.top-nav a:active {
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+.top-nav a:after {
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+.login-link {
+    padding: 10px 20px;
+    margin-right: 14px;
+}
+
+.top-nav .login-link a {
+    color: var(--color-primary);
+    font-size: 14px;
+}
+
+.top-nav .signup-cta a {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 6px;
 }
