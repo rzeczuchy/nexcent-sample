@@ -68,6 +68,10 @@ body {
 
 /* Top navigation */
 
+header {
+    background-color: var(--color-silver);
+}
+
 .top-nav {
     padding: 30px 120px;
     display: flex;
@@ -128,6 +132,7 @@ body {
 /* Hero */
 
 .hero {
+    background-color: var(--color-silver);
     min-height: 600px;
     display: flex;
     justify-content: center;
