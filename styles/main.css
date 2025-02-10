@@ -57,6 +57,19 @@ body {
     color: var(--color-black);
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-darkgrey);
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-grey);
+}
+
 .wrapper {
     max-width: 1440px;
     margin: auto;
@@ -202,10 +215,41 @@ header {
     background-color: var(--color-primary);
 }
 
+/* Our Clients */
+
+.our-clients {
+    min-height: 190px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.client-logos {
+    margin-top: 16px;
+    padding: 30px 0;
+}
+
+.client-logos ul {
+    list-style-type: none;
+}
+
+.client-logos ul li {
+    display: inline-block;
+}
+
+.client-logos ul li:not(:last-child) {
+    margin-right: 136px;
+}
+
+.client-logos img {
+    --logo-size: 48px;
+    width: var(--logo-size);
+    height: var(--logo-size);
+}
+
 /* Footer */
 
 footer {
-    height: 328px;
+    min-height: 328px;
     padding: 64px 165px;
     background-color: var(--color-black);
     color: var(--color-white);
@@ -229,6 +273,9 @@ footer {
 
 .footer-copyright {
     margin: 42px 0;
+}
+
+.footer-copyright p {
     color: var(--color-silver);
     font-size: 14px;
 }
