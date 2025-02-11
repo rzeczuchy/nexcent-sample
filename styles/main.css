@@ -64,6 +64,13 @@ h2 {
     margin-bottom: 8px;
 }
 
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color:  var(--color-darkgrey);
+    margin-bottom: 8px;
+}
+
 p {
     font-size: 16px;
     font-weight: 400;
@@ -219,7 +226,7 @@ header {
 
 .our-clients {
     min-height: 190px;
-    margin: 40px 0;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -245,6 +252,40 @@ header {
     --logo-size: 48px;
     width: var(--logo-size);
     height: var(--logo-size);
+}
+
+/* Use cases */
+
+.use-cases {
+    margin-top: 40px;
+    padding: 0 144px;
+    text-align: center;
+}
+
+.use-cases-text {
+    margin: auto;
+    max-width: 542px;
+}
+
+.use-cases-container {
+    margin: auto;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.use-case {
+    padding: 24px 32px;
+    max-width: 300px;
+}
+
+.use-case-icon {
+    margin-bottom: 16px;
+}
+
+.use-case p {
+    font-size: 14px;
+    line-height: 20px;
 }
 
 /* Footer */
