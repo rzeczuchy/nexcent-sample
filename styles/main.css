@@ -190,7 +190,7 @@ header {
 
 .hero-slider-nav {
     position: absolute;
-    top: 650px;
+    top: 675px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -226,6 +226,7 @@ header {
 .client-logos {
     margin-top: 16px;
     padding: 30px 0;
+    font-size: 0;
 }
 
 .client-logos ul {
