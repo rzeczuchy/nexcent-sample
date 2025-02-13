@@ -60,6 +60,7 @@ body {
 h2 {
     font-size: 36px;
     font-weight: 600;
+    line-height: 44px;
     color: var(--color-darkgrey);
     margin-bottom: 8px;
 }
@@ -84,6 +85,21 @@ p {
 
 .primary {
     color: var(--color-primary);
+}
+
+.cta {
+    margin-top: 32px;
+    min-width: 128px;
+    display: inline-block;
+    text-align: center;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 14px 32px;
+    border-radius: 6px;
+    text-decoration: none;
 }
 
 /* Top navigation */
@@ -174,23 +190,6 @@ header {
 .hero-subtitle {
     margin-top: 16px;
     color: var(--color-grey);
-}
-
-.hero-register {
-    margin-top: 32px;
-}
-
-.hero-register a {
-    display: block;
-    width: 128px;
-    text-align: center;
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    font-size: 16px;
-    font-weight: 500;
-    padding: 14px 32px;
-    border-radius: 6px;
-    text-decoration: none;
 }
 
 /* Hero slider navigation */
@@ -286,6 +285,35 @@ header {
 .use-case p {
     font-size: 14px;
     line-height: 20px;
+}
+
+/* Image left section */
+
+.image-left {
+    margin-top: 40px;
+    padding: 60px 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-left-image {
+    margin-right: 50px;
+    max-width: 440px;
+}
+
+.image-left-text-container {
+    max-width: 600px;
+}
+
+.image-left-text-container p {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.image-left-header-container {
+    max-width: 550px;
 }
 
 /* Footer */
