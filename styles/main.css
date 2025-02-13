@@ -75,6 +75,7 @@ h3 {
 p {
     font-size: 16px;
     font-weight: 400;
+    line-height: 24px;
     color: var(--color-grey);
 }
 
@@ -290,8 +291,9 @@ header {
 /* Image left section */
 
 .image-left {
+    min-width: 100%;
     margin-top: 40px;
-    padding: 60px 144px;
+    padding: 20px 144px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,6 +316,99 @@ header {
 
 .image-left-header-container {
     max-width: 550px;
+}
+
+/* Counters section */
+
+.counters-section {
+    min-width: 100%;
+    background-color: var(--color-silver);
+    margin-top: 40px;
+    padding: 64px 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counters-section-text {
+    width: 540px;
+    margin-right: 72px;
+}
+
+.counters-section-text .primary {
+    display: inline-block;
+}
+
+.counters-container {
+    width: 540px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+.counter img {
+    margin-right: 16px;
+}
+
+/* Testimonial */
+
+.testimonial {
+    min-width: 100%;
+    margin-top: 40px;
+    max-width: 1440px;
+    padding: 64px 144px;
+    background-color: var(--color-silver);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-image {
+    --image-size: 326px;
+    height: var(--image-size);
+    width: var(--image-size);
+    margin-right: 78px;
+    border-radius: 8px;
+}
+
+.testimonial-text {
+    max-width: 748px;
+}
+
+.testimonial-client-name {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.testimonial-client-company {
+    color: var(--color-lightgrey)
+}
+
+.testimonial-client-logos {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-client-logos img {
+    margin-right: 40px;
+}
+
+.testimonial-logos-link {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 /* Footer */
