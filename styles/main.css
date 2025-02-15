@@ -451,14 +451,37 @@ header {
     top: -100px;
     margin: auto;
     padding: 16px;
+    min-height: 176px;
     border-radius: 8px;
-    box-shadow: 0 -0 10px var(--color-silver);
+    box-shadow: 0 8px 16px var(--color-greyblue);
     width: 320px;
 }
 
 .article-title-tile h4 {
     color: var(--color-grey);
     margin-bottom: 24px;
+}
+
+/* CTA section */
+
+.cta-section {
+    min-width: 100%;
+    max-width: 1440px;
+    padding: 32px 144px;
+    text-align: center;
+    background-color: var(--color-silver);
+}
+
+.cta-section-heading-container {
+    margin: auto;
+    max-width: 800px;
+}
+
+.cta-section h2 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: var(--color-black)
 }
 
 /* Footer */
